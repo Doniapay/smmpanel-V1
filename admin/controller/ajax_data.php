@@ -1,4 +1,4 @@
-//  uniquepaybd Coding start
+//  doniapay Coding start
     elseif (($action == 'edit_paymentmethod') && ($_POST['id'] == 'doniapay')) :
       $id = $_POST['id'];
       $method = $conn->prepare('SELECT * FROM payment_methods WHERE method_get=:id ');
